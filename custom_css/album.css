@@ -56,3 +56,44 @@ footer p {
   font-weight: 400;
   text-align: center;
 }
+
+.about-image{
+  margin-left: 18%;
+  padding-bottom: 5%;
+  padding-top: 2%;
+}
+.about-header{
+  font-size: 4em;
+  line-height: 1.2em;
+  font-family: "Lora",Sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+}
+
+.about-design-header{
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+}
+
+.about-text{
+  font-size: 20px;
+  padding-bottom: 2%;
+}
+
+.contact-icons-list{
+  list-style: none;
+  text-align: center;
+}
+
+.contact-icons-list li{
+  font-size: 30px;
+  padding-right: 5%;
+  display: inline;
+}
+
+.contact-icons-list li a{
+  color: black;
+}
