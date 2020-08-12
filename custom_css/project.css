@@ -1,0 +1,111 @@
+.cover-div{
+    height: 30em;
+}
+@media (max-width: 768px) {
+    .cover-div{
+        height: 25em;
+    }
+  }
+
+@media (max-width: 480px){
+    .cover-div{
+        height: 18em;
+    }
+}
+.cover-image{
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cover-header{
+    position: absolute;
+    left: 50%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    width: 100%;
+    bottom: 6.5%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    /* background: -webkit-gradient(linear,left top,left bottom,from(transparent),to(rgba(0,0,0,.7)));
+    background: -webkit-linear-gradient(transparent,rgba(0,0,0,.7));
+    background: -o-linear-gradient(transparent,rgba(0,0,0,.7));
+    background: linear-gradient(transparent,rgba(0,0,0,.7)); */
+}
+
+@media (max-width: 1024px) {
+    .cover-header{
+        bottom: 45.5%;
+    }
+}
+@media (max-width: 768px) {
+    .cover-header{
+        bottom:30%;
+    }
+}
+
+@media (max-width: 480px) {
+    .cover-header{
+        bottom: 28%;
+    }
+}
+
+.subject{
+    padding-top: 2em;
+}
+
+.project-list{
+    list-style: none;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right:2em;
+}
+
+.project-list-border {
+    margin-left: 4em;
+    margin-right: 4em;
+    border: #cccccc ;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+}
+
+.project-info-title{
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 500;
+    margin-bottom: 4px;
+    line-height: 1.6em;
+}
+
+.project-info{
+    font-size: 12px;
+    line-height: 1.5em;
+    word-break: break-all;
+    margin-bottom: 1em;
+}
+
+.project-desc{
+    padding-right: 4em;
+}
+
+.project-desc h3{
+    font-size: 26px;
+    font-family: inherit;
+    font-weight: 500;
+    margin-bottom: 4px;
+    line-height: 1.6em;
+}
+
+.project-desc p{
+    color: gray;
+}
+.project-image{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
