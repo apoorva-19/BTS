@@ -1,9 +1,12 @@
+.vayam{
+    background-color: #f6f4f6;
+}
 .cover-div{
-    height: 30em;
+    height: 45em;
 }
 @media (max-width: 768px) {
     .cover-div{
-        height: 25em;
+        height: 30em;
     }
   }
 
@@ -55,34 +58,38 @@
 }
 
 .subject{
-    padding-top: 2em;
+    padding-top: 2%;
 }
 
 .project-list{
     list-style: none;
-    padding-top: 1em;
-    padding-left: 2em;
-    padding-right:2em;
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-right:10%;
 }
 
 .project-list-border {
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
     border: #cccccc ;
     border-radius: 4px;
     border-style: solid;
-    border-width: 1px;
+    border-width: 1.5px;
     overflow: hidden;
 }
 
 .project-info-title{
-    font-size: 14px;
+    font-size: 18px;
     font-family: inherit;
     font-weight: 500;
     margin-bottom: 4px;
     line-height: 1.6em;
 }
 
+.vayam .project-info-title{
+    color: #915c91;
+}
 .project-info{
     font-size: 12px;
     line-height: 1.5em;
@@ -90,22 +97,22 @@
     margin-bottom: 1em;
 }
 
-.project-desc{
-    padding-right: 4em;
-}
-
-.project-desc h3{
-    font-size: 26px;
+.project-desc h4{
+    font-size: 24px;
     font-family: inherit;
     font-weight: 500;
-    margin-bottom: 4px;
-    line-height: 1.6em;
+    margin-bottom: 4%;
+    text-align: justify;
+}
+
+.vayam-desc{
+    color: #915c91;
 }
 
 .project-desc p{
     color: gray;
 }
 .project-image{
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
