@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Open+Sans&display=swap');
+
 .vayam{
     background-color: #f6f4f6;
 }
@@ -70,7 +72,7 @@
 }
 
 .project-list li{
-    padding-right: 3%;
+    padding-right: 4%;
 }
 .project-list-border {
     margin-left: 5%;
@@ -99,6 +101,7 @@
     line-height: 1em;
     word-break: break-all;
     margin-bottom: 1%;
+    color: gray;
 }
 
 .project-desc{
@@ -106,8 +109,8 @@
     margin-right: 8%;
 }
 .project-desc h4{
-    font-size: 24px;
-    font-family: inherit;
+    font-size: 1.5rem;
+    font-family: 'Cabin', sans-serif;
     font-weight: 500;
     margin-bottom: 2%;
     text-align: justify;
@@ -119,6 +122,7 @@
 
 .project-desc p{
     color: gray;
+    font-family: 'Open Sans', sans-serif;
 }
 .project-image{
     padding-top: 3%;
