@@ -1,8 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Open+Sans&display=swap');
 
 .vayam{
-    background-color: #f6f4f6;
+    background-color: #dddada;
 }
+
+.irma{
+    background-color: #d6d8cc;
+}
+
+.sati{
+    background-color: #e1e1e1;
+}
+
+.mit_id{
+    background-color: #e8e3e2;
+}
+
 .cover-div{
     margin-top: 2%;
     height: 45em;
@@ -94,8 +107,21 @@
 }
 
 .vayam .project-info-title{
-    color: #915c91;
+    color: #824882;
 }
+
+.irma .project-info-title{
+    color: #687250;
+}
+
+.sati .project-info-title{
+    color: #222222;
+}
+
+.mit_id .project-info-title{
+    color: #588b8b;
+}
+
 .project-info{
     font-size: 14px;
     line-height: 1em;
@@ -117,7 +143,19 @@
 }
 
 .vayam-desc{
-    color: #915c91;
+    color: #824882;
+}
+
+.irma-desc{
+    color: #687250;
+}
+
+.sati-desc{
+    color: #222222;
+}
+
+.mit_id-desc{
+    color: #588b8b;
 }
 
 .project-desc p{
